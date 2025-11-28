@@ -1,0 +1,221 @@
+<template>
+  <div class="home">
+    
+    <section class="frontpage">
+      <Navbar/>
+      <div class="content">
+        <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0"><small>Welcome to our</small></div>
+        <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500"><h1>Plant Disease</h1></div>
+        <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000"><h1>Detection Website</h1></div>
+      </div>
+    </section>
+      
+    <div class="row justify-content-center c1">
+      <div class="card-container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" style="position: absolute; top: 100%; left: 50%; transform: translate(-50%, -50%); width: 50%; z-index: 1;">
+        <div class="card bg-white border-0 shadow form-card">
+          <div class="card-body">
+            <h1 class="text-dark text-center mb-5">Why to detect???</h1>
+            <h5> <center>Please find this out below</center> </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+    <section class="lastpage">
+      <div class="farmer">
+        <div class="container">
+          <section class="c2">
+            <div class="row offset-sm-2">
+              <div class="col-sm-6 align-items-center">
+                <img src="../assets/images/farmer.jpg" alt="farmer" class="farmer-img" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0" data-aos-offset="200">
+              </div>
+
+              <div class="col-sm-6 align-items-center">
+                <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200" style="width: 20rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Motivation</h5>
+                    <p class="card-text">
+                      Global agriculture, contributing 4% to the GDP, faces challenges like pests and diseases affecting yields. 
+                      Traditional methods are slow, impacting profits. Modernizing with advanced technology like YOLOv5 and YOLOv8 improves disease detection, 
+                      aiding crop management decisions. This paper compares these models and introduces a valuable dataset for addressing agricultural challenges 
+                      and benchmarking progress.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <br><br><br>
+          <div class="row c3">
+            <div class="col-sm-4 d-flex align-items-center">
+              <img src="../assets/images/our_goals.jpg" alt="OUR GOALS" width="450px" height="450px" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0" data-aos-offset="100">
+            </div>
+            <div class="col-sm-8 d-flex flex-column align-items-center justify-content-center goals">
+              <div class="row data-point" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100">Real Time detection</div>
+              <div class="row data-point" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250" data-aos-offset="100">Reduced response time</div>
+              <div class="row data-point" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" data-aos-offset="100">Improved Accuracy</div>
+              <div class="row data-point" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="350" data-aos-offset="100">Efficient Processing</div>
+              <div class="row data-point" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="100">Streamlined User Interface</div>
+            </div>
+          </div>
+          <br><br><br>
+          <div class="row title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0" data-aos-offset="100">
+            <strong>Future Works</strong>
+          </div><br><br>
+          <div class="row c4">
+            <div class="col-sm-4">
+              <img src="../assets/images/appDev.jpg" alt="Mobile App developement" width="350px" height="250px" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">
+              <div class="info-title mt-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250" data-aos-offset="100"><strong>Mobile App developement</strong></div>
+              <div class="info-body mt-2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="350" data-aos-offset="100">
+                Create a user friendly mobile app for both Android and iOS platforms, allowing farmers and users to access your disease detection system on their smartphones.
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img src="../assets/images/drone.jpg" alt="Drone Technology" width="350px" height="250px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">
+              <div class="info-title mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" data-aos-offset="100"><strong>Drone Technology</strong></div>
+              <div class="info-body mt-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="350" data-aos-offset="100">
+                Use drones equipped with cameras and sensors to conduct aerial surveillance of crop fields. Drones can capture high-resolution images, helping detect diseases, pest infestations, and other issues early.
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img src="../assets/images/appDev.jpg" alt="Chat-Bot Integration" width="350px" height="250px" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">
+              <div class="info-title mt-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250" data-aos-offset="100"><strong>Chat-Bot Integration</strong></div>
+              <div class="info-body mt-2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="350" data-aos-offset="100">
+                Can serve as and effective tool for users looking for immediate response and support in their farming activities. Integrating chat functionality into our platform can significantly improve user engagement and satisfaction, making it a valuable addition to your project's future development.
+              </div>
+            </div>
+          </div>
+          <br><br><br>
+          <div class="row title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0" data-aos-offset="100">
+            <strong>Technologies Used</strong>
+          </div><br><br>
+          <div class="row c5">
+            <div class="col-sm-4">
+              <img src="../assets/logos/vue.png" alt="Vue" width="350px" height="250px" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">
+            </div>
+            <div class="col-sm-4">
+              <img src="../assets/logos/flask.jpg" alt="Flask" width="350px" height="250px" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">
+            </div>
+            <div class="col-sm-4">
+              <img src="../assets/logos/yolo.png" alt="Yolo" width="350px" height="250px" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">
+            </div>
+          </div>
+        </div>
+      </div><br>
+    </section>
+    <Footer />
+  </div>
+</template>
+
+<script>
+import Navbar from "../components/Navbar.vue"
+import Footer from "../components/Footer.vue"
+export default {
+  name: 'HomeView',
+  components: {
+    Navbar,
+    Footer
+  },
+
+};
+</script>
+
+<style scoped>
+
+.frontpage {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../assets/background/plant9.jpg');
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  position: relative; 
+  overflow: hidden; 
+  color: white;
+  /* position: relative; */
+}
+
+/* .lastpage{
+  background-color:hsl(120, 13%, 58%);
+} */
+
+.farmer-img {
+  height: 300px;
+  width: 350px;
+}
+
+/* .card { 
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+} */
+
+
+.content {
+  /* color: #fbfcfd;  #404464 #FF8D5C */
+  color: #fbfcfd;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 70px;
+  margin: 10px 0 30px;
+}
+
+.goals p{
+  font-size: 18px;
+  font-family: sans-serif;
+  margin: 5px 0;
+}
+
+.title {
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.data-point {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.info-title {
+  font-size: 18px;
+}
+
+.c2 {
+  background-color: lightgray;
+  margin-left: -125px; 
+  margin-right: -125px; 
+  padding-left: 125px; 
+  padding-right: 125px;
+}
+
+.c3 {
+  background-color: lightgray;
+  margin-left: -125px; 
+  margin-right: -125px; 
+  padding-left: 125px; 
+  padding-right: 125px;
+}
+
+.c4 {
+  background-color: lightgray;
+  margin-left: -125px; 
+  margin-right: -125px; 
+  padding-left: 125px; 
+  padding-right: 125px;
+}
+
+.c5 {
+  background-color: lightgray;
+  margin-left: -125px; 
+  margin-right: -125px; 
+  padding-left: 125px; 
+  padding-right: 125px;
+}
+</style>

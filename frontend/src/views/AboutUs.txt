@@ -1,0 +1,73 @@
+<template>
+  <div class="about">
+    <Navbar />
+    <br><h2>About Us</h2><br><br>
+    <div class="container">
+      <div v-for="(name, index) in Names" :key="index" class="row mt-2">
+        <div class="col-md-4">
+          <img :src="require(`@/assets/photos/${Photo[index]}`)" width="150" height="150">
+          <!-- <img src="../assets/photos/mihir.jpeg" width="150" height="150"> -->
+
+        </div>
+        <div class="col-md-8 info-container" data-aos="fade-up">
+          <div class="info">
+            <h4>{{ name }}</h4>
+            <p>{{ Descrtiption[index] }}</p>
+          </div>
+        </div>
+      </div>
+    </div><br>
+    <Footer />
+  </div>
+</template>
+
+<script>
+import Navbar from "../components/Navbar.vue"
+import Footer from "../components/Footer.vue"
+export default {
+  name: "AboutUs",
+  components: {
+    Navbar,
+    Footer
+  },
+  // data() {
+  //   return {
+  //     Names: ["Mihir Mengde", "Rishabh Jain", "Vaibhav Hawaldar"],
+  //     Photo: ["mihir.jpeg", "rishabh.jpeg", "rishabh.jpeg"],
+  //     Descrtiption: [
+  //       "Data Science Dynamo: Proficient in Python, Data Analysis, and Machine Learning, Ready to Support the Team, resulting in learning diverse perspectives, clarity of communication, information management, and knowledge synthesis.",
+  //       "Data Maestro: Mastering the art of Data Science, Navigating Networks, Operating Systems, etc, resulting in amplified leadership, teamwork, seamless communication, expert Insights, literature review, cross-referencing, and self-management.",
+  //       "Coding Connoisseur: CSE Student with a Passion for Machine Learning and AI. Proficient in Python, Jack of Many Programming Languages!, resulting in learning real-life examples, active listening, contemporary Insights, creativity, synthesis and multimedia research."
+  //     ],
+  //   };
+  // }
+}
+</script>
+
+<style scoped>
+h2 {
+  text-align: center;
+  /* color:#d8f3dc; */
+}
+
+img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.info-container {
+  display: flex;
+  align-items: center;
+}
+.info {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+body {
+  background-color: #d8f3dc;  /* Light green background */
+  color: #2a9d8f;            /* Dark green text color */
+}
+
+
+</style>
